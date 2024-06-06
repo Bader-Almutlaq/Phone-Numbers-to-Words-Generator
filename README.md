@@ -5,7 +5,7 @@
 This C project generates words of a specified length (seven characters) where the characters '0' and '1' are not allowed. After generating the words, they are compared with entries in a `dictionary.txt` file. Only words that have meaning according to the dictionary are kept and written to an `output.txt` file. The words can be composite words (e.g., "THEBOSS", "FLOWERS").
 
 Numbers are mapped to characters as follows:
-1:ABC, 2:DEF, 3:GHI, 4:JKL, 5:MNO,  
+2:ABC, 3:DEF, 4:GHI, 5:JKL, 6:MNO, 7:PRS, 8:TUV, 9:WXY  
 
 ## Features
 

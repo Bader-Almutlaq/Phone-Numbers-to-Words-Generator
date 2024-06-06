@@ -4,6 +4,9 @@
 
 This C project generates words of a specified length (seven characters) where the characters '0' and '1' are not allowed. After generating the words, they are compared with entries in a `dictionary.txt` file. Only words that have meaning according to the dictionary are kept and written to an `output.txt` file. The words can be composite words (e.g., "THEBOSS", "FLOWERS").
 
+Numbers are mapped to characters as follows:
+1:ABC, 2:DEF, 3:GHI, 4:JKL, 5:MNO,  
+
 ## Features
 
 - **Word Length**: All generated words are exactly seven characters long.
@@ -36,4 +39,10 @@ gcc -o word_generator main.c
 ### Runing the project
 
 To run the generator, navigate to the project directory and use the following command:
-`./WordsGenerator.c`
+```bash
+./WordsGenerator.c
+```
+## Usage
+1. Ensure `dictionary.txt` is in the project directory and contains words separated by newlines.
+2. Compile and run the generator using the provided command
+3. The output will be writing in `output.txt`, the file is created it not provided.
